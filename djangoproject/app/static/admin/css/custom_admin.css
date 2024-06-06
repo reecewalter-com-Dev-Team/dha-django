@@ -1,0 +1,38 @@
+/* Custom CSS for Django Admin */
+body {
+    background-color: #f0f0f0;
+}
+
+#header {
+    background-color: rgba(26, 23, 21, 1.00);
+    color: white;
+}
+#branding h1 a:visited{
+    color: white;
+}
+#header h1 a {
+    color: #ffffff;
+}
+div.breadcrumbs{
+    background: rgba(26, 23, 21, 1.00);
+    color: #BA000F;
+    font-weight: bold;
+}
+
+/* Style for the table rows */
+.module caption{
+    background: rgba(26, 23, 21, 1.00);
+}
+
+.module a{
+    color: rgba(26, 23, 21, 1.00);
+}
+.module a:hover{
+    color: #BA000F;
+}
+
+#nav-sidebar .current-model{
+    background: transparent;
+    background: rgba(186, 0, 15, 0.1); /* Light red background with 10% opacity */
+
+}
