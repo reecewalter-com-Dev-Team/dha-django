@@ -132,7 +132,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_project.wsgi.application'
+WSGI_APPLICATION = 'djangoproject.wsgi.application'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'app/static'),
 ]
