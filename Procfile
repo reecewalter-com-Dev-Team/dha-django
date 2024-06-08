@@ -1,1 +1,1 @@
-web: gunicorn --worker-tmp-dir /dev/shm your_project.wsgi:application
+web: gunicorn --worker-tmp-dir /dev/shm djangoproject.wsgi:application
